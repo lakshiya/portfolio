@@ -98,7 +98,7 @@ params:
     title: "Priya Lakshmi"
     #subtitle: 
     content: "A passionate Computer Science Graduate Student who loves using data to build stories and enhance products. I'm also a food Vlogger and Street Photographer ! I live in Rochester, NY"
-    image: "images/Priya_ID.png"
+    image: "images/Priya_ID_jpg.jpg"
     button:
       background - color: 
       enable: true
