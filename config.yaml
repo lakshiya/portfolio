@@ -1,6 +1,6 @@
-baseURL: "https://keerthi-sreenivas.github.io"
+baseURL: "https://lakshiya.github.io"
 languageCode: "en-us"
-title: "Keerthi"
+title: "Priya Lakshmi"
 theme: master
 
 Paginate: 3
@@ -95,10 +95,10 @@ params:
   hero:
     enable: true
     intro: "Hi there! I'm "
-    title: "Keerthi Sreenivas"
+    title: "Priya Lakshmi"
     #subtitle: 
-    content: "A passionate Data Science Graduate Student who loves using data to build stories and enhance products. I'm also a food Vlogger and Street Photographer ! I live in Rochester, NY"
-    image: "images/me_.jpg"
+    content: "A passionate Computer Science Graduate Student who loves using data to build stories and enhance products. I'm also a food Vlogger and Street Photographer ! I live in Rochester, NY"
+    image: "images/Priya_ID.jpg"
     button:
       background - color: 
       enable: true
@@ -107,11 +107,11 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://github.com/Keerthi-Sreenivas
+          url: https://github.com/lakshiya
         - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/keerthi-sreenivas-90b78a185/
+          url: https://www.linkedin.com/in/priya-lakshmi-theagarajan/
         - icon: fab fa-instagram
-          url: https://www.instagram.com/accounts/login/?next=/keerthi__sreenivas/
+          url: https://www.instagram.com/riya_laksh/
       #customIcons:
         #- icon: /fav.png
         #  url: "https://example.com"
@@ -325,7 +325,7 @@ params:
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: keerthikonjety9@gmail.com
+    email: priya.theagarajan@gmail.com
     btnName: Mail me
 
   footer:
