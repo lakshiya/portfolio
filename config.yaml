@@ -40,10 +40,10 @@ markup:
       #weight: 2
 
 params:
-  #title: "Hugo Profile"
-  #description: Text about my cool site
-  # staticPath: ""  # The path to serve the static files from
-  #favicon: "/fav.png"
+  title: "Hugo Profile"
+  description: Text about my cool site
+  staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
 
   theme:
     disableThemeToggle: false
@@ -99,8 +99,7 @@ params:
     #subtitle: 
     content: "A passionate graduate student at the University of Florida, majoring in Computer Science. 
     I live in Mountain View, CA. I love interacting and learning about technologies, I believe that every problem is an opportunity in disguise, and I specialize in crafting software solutions to tackle them"
-    # image: "images/Priya_ID_jpg.jpg"
-    image: "file:///Users/priyalakshmitheagarajan/Desktop/PROJECTS_Simple/Priya-Portfolio/portfolio/static/images/Priya_ID.png"
+    image: "images/Priya_ID_jpg.jpg"
     button:
       background - color: 
       enable: true
