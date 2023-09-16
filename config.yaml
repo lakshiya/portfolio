@@ -40,10 +40,10 @@ markup:
       #weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: " "
   description: Text about my cool site
   staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "Priya_icon/.png"
 
   theme:
     disableThemeToggle: false
