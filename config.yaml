@@ -43,7 +43,7 @@ params:
   title: " "
   description: Text about my cool site
   staticPath: ""  # The path to serve the static files from
-  favicon: "Priya_icon/.png"
+  favicon: "Priya_icon.png"
 
   theme:
     disableThemeToggle: false
