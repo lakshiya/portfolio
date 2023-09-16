@@ -94,10 +94,11 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi there! I'm "
+    intro: "Hello World! I'm "
     title: "Priya Lakshmi"
     #subtitle: 
-    content: "A passionate Computer Science Graduate Student who loves using data to build stories and enhance products. I'm also a food Vlogger and Street Photographer ! I live in Rochester, NY"
+    content: "A passionate graduate student at the University of Florida, majoring in Computer Science. 
+    I live in Mountain View, CA. I love interacting and learning about technologies, I believe that every problem is an opportunity in disguise, and I specialize in crafting software solutions to tackle them"
     image: "images/Priya_ID_jpg.jpg"
     button:
       background - color: 
