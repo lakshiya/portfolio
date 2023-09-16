@@ -49,7 +49,7 @@ params:
     disableThemeToggle: false
     defaultTheme: "light" # dark
     color:  
-        secondaryBackgroundColor: "Blue"
+        secondaryBackgroundColor: "Pink"
     #darkmode:
         #secondaryBackgroundColor: "Blue"
 
