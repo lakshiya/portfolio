@@ -43,24 +43,40 @@ params:
   title: " "
   description: Text about my cool site
   staticPath: ""  # The path to serve the static files from
-  favicon: "Priya_icon.png"
+  favicon: "Priya_icon.jpg"
+
+  color:
+
+    textColor: "#5453A6"
+    secondaryTextColor: "#5453A6"
+    backgroundColor: "#F5F5F5"
+    primaryColor: "#5453A6"
+    secondaryColor: "#30475E"
+
+    darkmode:
+      textColor: "#2C3333"
+      secondaryTextColor: "#F5F5F5"
+      backgroundColor: "#54BAB9"
+      primaryColor: "#F0F0F0"
+      secondaryColor: "#78C2C3"
+
+    # textColor: "#F5F5F5"
+    # secondaryTextColor: "#F5F5F5"
+    # backgroundColor: "#313552"
+    # primaryColor: "#F1E0AC"
+    # secondaryColor: "#30475E"
+
+    # darkmode:
+    #   textColor: "#2C3333"
+    #   secondaryTextColor: "#F5F5F5"
+    #   backgroundColor: "#54BAB9"
+    #   primaryColor: "#F0F0F0"
+    #   secondaryColor: "#78C2C3"
 
   theme:
     disableThemeToggle: false
     defaultTheme: "light" # dark
-    color:
-      textColor: "#F5F5F5"
-      secondaryTextColor: "#F5F5F5"
-      backgroundColor: "#313552"
-      primaryColor: "#F1E0AC"
-      secondaryColor: "#30475E"
-
-      darkmode:
-        textColor: "#2C3333"
-        secondaryTextColor: "#F5F5F5"
-        backgroundColor: "#54BAB9"
-        primaryColor: "#F0F0F0"
-        secondaryColor: "#78C2C3"
+    
     # color:  
     #     secondaryBackgroundColor: "Blue"
     #darkmode:
@@ -98,7 +114,7 @@ params:
     #subtitle: 
     content: "A passionate graduate student at the University of Florida, majoring in Computer Science. 
     I live in Mountain View, CA. I love interacting and learning about technologies, I believe that every problem is an opportunity in disguise, and I specialize in crafting software solutions to tackle them"
-    image: "images/Priya_ID_jpg.jpg"
+    image: "images/PriyaDP3.png"
     button:
       background - color: 
       enable: true
@@ -120,7 +136,7 @@ params:
   about:
     enable: true
     title: "I'm Open to work from December 2022"
-    image: "/images/Priya_ID_jpg.jpg"
+    image: "/images/Priya_Sec.png"
     content: |-
      Currently working as Data Science Intern at Allogene Therapeutics https://allogene.com
      A Masters in Data Science student with 4+ years of academic experience in Python, R, Machine Learning and Big Data. 
