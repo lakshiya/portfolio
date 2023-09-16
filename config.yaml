@@ -48,8 +48,21 @@ params:
   theme:
     disableThemeToggle: false
     defaultTheme: "light" # dark
-    color:  
-        secondaryBackgroundColor: "Blue"
+    color:
+      textColor: "#F5F5F5"
+      secondaryTextColor: "#F5F5F5"
+      backgroundColor: "#313552"
+      primaryColor: "#F1E0AC"
+      secondaryColor: "#30475E"
+
+      darkmode:
+        textColor: "#2C3333"
+        secondaryTextColor: "#F5F5F5"
+        backgroundColor: "#54BAB9"
+        primaryColor: "#F0F0F0"
+        secondaryColor: "#78C2C3"
+    # color:  
+    #     secondaryBackgroundColor: "Blue"
     #darkmode:
         #secondaryBackgroundColor: "Blue"
 
@@ -60,12 +73,7 @@ params:
   #   textAlign: right # default: left
 
   # color preference
-  color:
-    textColor: "#2C3333"
-    secondaryTextColor: "#F5F5F5"
-    backgroundColor: "#54BAB9"
-    primaryColor: "#F0F0F0"
-    secondaryColor: "#78C2C3"
+    
 
   # If you want to customize the menu, you can change it here
   navbar:
