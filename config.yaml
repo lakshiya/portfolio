@@ -99,7 +99,8 @@ params:
     #subtitle: 
     content: "A passionate graduate student at the University of Florida, majoring in Computer Science. 
     I live in Mountain View, CA. I love interacting and learning about technologies, I believe that every problem is an opportunity in disguise, and I specialize in crafting software solutions to tackle them"
-    image: "images/Priya_ID_jpg.jpg"
+    # image: "images/Priya_ID_jpg.jpg"
+    image: "file:///Users/priyalakshmitheagarajan/Desktop/PROJECTS_Simple/Priya-Portfolio/portfolio/static/images/Priya_ID.png"
     button:
       background - color: 
       enable: true
