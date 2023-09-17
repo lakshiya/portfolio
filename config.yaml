@@ -40,7 +40,7 @@ markup:
       #weight: 2
 
 params:
-  title: " "
+  title: " Portfolio "
   description: Text about my cool site
   staticPath: ""  # The path to serve the static files from
   favicon: "Priya_icon.jpg"
@@ -110,11 +110,13 @@ params:
   hero:
     enable: true
     intro: "Hello World! I'm "
-    title: "Priya Lakshmi"
-    #subtitle: 
-    content: "A passionate graduate student at the University of Florida, majoring in Computer Science. 
-    I live in Mountain View, CA. I love interacting and learning about technologies, I believe that every problem is an opportunity in disguise, and I specialize in crafting software solutions to tackle them"
-    image: "images/PriyaDP3.png"
+    title: "Priya Theagarajan"
+    subtitle: "Software Engineer"
+    content: "Currently Interning at <a href=https://www.intuitive.com/en-us> <b> Intuitive Surgical Inc</b>. </a>
+     With over 4 years of professional experience working in backend application devleopment, Cloud Infrastructure, Data engineering, Business analytics and Machine learning projects.  
+     I am actively looking for full-time opportunites starting April 2023."
+    
+    image: "images/Priya_Sec.png"
     button:
       background - color: 
       enable: true
@@ -135,12 +137,12 @@ params:
   # About
   about:
     enable: true
-    title: "I'm Open to work from May 2024"
-    image: "/images/Priya_Sec.png"
+    title: "I'm Open to work from April 2024"
+    image: "/images/PriyaDP3.png"
     content: |-
-     Currently working as Software Engineer Intern at <a href="https://www.intuitive.com/en-us"> <b> Intuitive Surgical Inc</b>. </a>
-     With over 4 years of professional experience working in backend application devleopment, Cloud Infrastructure, data engineering, business analytics and machine learning projects.  
-     I have a strong interest in the the intersection of Technology and Business.
+      A passionate graduate student at the University of Florida, majoring in Computer Science. 
+      I live in Mountain View, CA. I love interacting and learning about technologies, I believe that every problem is an opportunity in disguise, and I specialize in crafting software solutions to tackle them.
+     
      
     skills:
       enable: true
@@ -169,12 +171,11 @@ params:
           url: "https://www.intuitive.com/en-us"
         content: |
           Sunnyvale, California
-          - Developed a Data Issue tracker dashboard application in R to reduce time in communication issues in data by 70% which replaced existing licensed software thereby saving $80,000 annually for the company
-          - Performed stakeholder analysis and translated functional requirements to build the roadmap for iterative development.
-          - Synthesized User-friendly front-end layouts and designed actionable metrics in the dashboard for the Analytics Team
-          - Worked with cross-functional teams to automate object extraction in and performed ETL to store it in Aws S3 buckets.
-          - Built a practice to write efficient and reusable code with configuration files with minimal technical debt
 
+          - Engineering Applications | <i><b> Tableau, Pandas, Python, REST API, SQL, Windchill, RHEL </b></i>
+            - Developed Tableau dashboards using data from REST API to manage IT application licenses, resulting in cost reduction of over 20% due to removal of unused licenses
+            - Building troubleshooting and monitoring utility using logs from CAD workers with Elasticsearch, Kibana, and Machine learning techniques
+            - Deploying IOT Thingworx Foundational and Thingworx Navigate in Redhat Enterprise and SQL server to give stakeholders across an organziation easy access to view Product Life Cycle Management (PLM) data
       
       - job: "Software Engineer"
         company: "University of Florida - College of Medicine"
@@ -190,8 +191,11 @@ params:
           content:
         content: |-
           Gainesville, Florida
-          - Conducted weekly doubt-solving sessions & taught 200+ students on Big data tools like: Hadoop, Hive, PySpark, Databricks
-          - Assisted students in connecting and file sharing in Hadoop clusters hosted on AWS S3 and other ad-hoc data democratization tasks.
+
+          - Medical Resource Database system | <i><b> Django, Python, PySpark, MySQL, HTML, AWS </b></i>
+            - Architected a full-stack inventory database and infrastructure system with Django; streamlined research equipment management and facilitated collaboration between researchers, enhancing resource allocation by 40%
+            - Improved application rendering time by 30% through pagination and implementing data transformation pipeline to perform data collection, integration, and data processing on records across departments using PySpark on Oracle data warehouse
+            - Applied data modelling and data governance techniques to build database and executed user access control, notification, and application maintenance to ensure consistency in functionality
 
       - job: "Senior Analyst - Technology"
         company: "Barclays"
@@ -204,53 +208,65 @@ params:
           enable: false
           url: "https://cards.barclaycardus.com"
         info:
-          content: Generated a revenue of $6,400 for the startup by offering one-on-one sessions during late/early hours from India for students in the USA, designing course structure and content.
+          content: 
         content: |-
           Chennai, India
-          - Designed the curriculum and produced Content for an experiential learning course “Javascript  for Middle School Kids” by creating fun and interactive lessons  increasing enrollment by 45% Qtr over Qtr
-          - Offered one-on-one Mentoring  sessions from India for students in the USA henceforth generating revenue of $6,400   
+          - Data Lake creation using server-less ETL pipeline on Cloud | <i><b> AWS, Python, CloudFormation, PySpark, Jenkins </b></i>
+            - Led data migration of 12 million US Consumer Banking records from Hadoop/Oracle to AWS Data Lake by developing serverless data transformation pipelines resulting in resource conservation of over 50%
+            - Enhanced the incident response time by 80% through designing a real-time monitoring and notification systems
+            by establishing reconciliation between AWS and on-premises resources using Python and Elasticsearch
+            - Reduced the development lifecycle by 30% by building and deploying reusable service catalog products via IaaC
+            (Infrastructure as a Code) for AWS services: S3, Lambda, IAM, ECS, Lake formation, SNS, SQS etc.
+            - Achieved a 30% cost saving in EC2 server provisioning expenses by implementing adaptive Autoscaling groups
+            and Application load balancers to manage traffic based on CPU and memory utilization
+            - Provisioned products are utilized to migrate, monitor, and process history and daily batch loads for over 100
+            datasets
+          - Business Intelligence Dashboard (BI) - Credit Card Fraud Tubemap | <i><b> PL/SQL, Tableau, Visio </b></i>
+            - Modularized complex systems involved in Transactional Fraud Customer journey as a Tube map (An E2E
+            mapping of customer interactions across fraud detection channels) to visualize data flow and lineage
+            - Automated dashboard conceptualized with data visualization software Tableau and SQL queries replaced the
+            manual weekly report generated by Fraud Analytics team leading to 80% improvement in report turnaround time
+
+          - Deploy SAS Viya on Cloud | <i><b> AWS, Chef, Terraform, SAS Viya </b></i>
+            - Directed efforts for provisioning SAS Viya (Data management platform) on AWS environment with vendors
+            - Created Chef cookbook in Ruby with orchestration steps for deployed SAS Viya on AWS EC2
+            - Accelerated the efficiency of SAS users to perform complex analytical tasks with improved scalability and performance
           
   # Education
   education:
     enable: true
     # index: true
     items:
-      - title: "Masters in Data Science (Business Concentration)"
+      - title: "Master of Science in Computer Science"
         school:
-          name: "University of Rochester, New York"
-          url: "https://www.rochester.edu"
-        date: "2021 - 2022"
-        GPA: "3.7 out of 4.0"
+          name: "University of Florida, Florida"
+          url: "https://www.eng.ufl.edu/"
+        date: "Aug 2022 - April 2024"
+        GPA: "3.72 out of 4.0"
         content: |-
-            - Was a Teaching Assistant for Big Data at the Simon Business School, University of Rochester
-            - Worked as a Research assistant to pre-process Bio-Medical Image data for training a U-Net Deep Learning Algorithm in the Machine Learning team at the Vaccine Biology and Dermatology labs in University Medical Center
-            - Attending Grace Hopper 2022 Conference with University Scholarship
-            - Course Work: Data Science at scale, Machine Learning, Applied Statistical Methods, Data Mining, Technical Entrepreneurship, Time Series analysis and forecasting.
+            - Worked as a Software Engineer for College of Medicine to develop a medical resource inventory system.
+            - Was part of the Virtual Experience RG lab to perform user research project on HPV vaccination using virtual humans with Figma.
+            - Attending Grace Hopper 2023 Conference with University Scholarship.
+            - Course Work: Natural Language Processing, Analysis of Algorithms, Computer Architecture, Human Computer Interaction, Advanced Data Structure, Distributed Operating System, Internet Data Streaming.
 
             Extracurricular Activities
-             - Won first place in the Creative Collision Challenge 2022 Pitching competition 
-             - Conducted and Mentored a Zumba workshop under Rochester Indian Association
-             - Active member of UR Photography club
-      - title: "Bachelor of Technology in Computer Science and Engineering (Hons.)"
+             - Active member of UF WiCSE (Women in Computer Science and Engineering)
+
+      - title: "Bachelor of Engineering in Computer Science and Engineering"
         school:
-          name: "Indian Institute of Information Technology(IIIT), Kottayam"
-          url: "http://www.iiitkottayam.ac.in/#!/home"
-        date: "2017 - 2021"
-        GPA: "8.96 out of 10"
+          name: "SSN College of Engineering, Chennai"
+          url: "https://www.ssn.edu.in/"
+        date: "Jun 2015 - Apr 2019"
+        # GPA: "8.96 out of 10"
         content: |- 
-          - Main Author for the research presentation “IoT based Smart Medicine Reminder Kit” at ACM/CSI/IEEE-CS Research and Industry Symposium at IIIT Kottayam.
-          - Co-Founded Proxima an Image processing based Start-up for Smart Badminton and Yoga instruction with Feedback using Deeplearning.
-          - Data Science Courses: Artificial Intelligence, Data Warehousing and  Data Mining, Big Data Analytics, Predictive Analytics, Database Management, 
-          - Computer Science Courses: Cloud Computing, Cryptography and Network Security, Computer Programming, Data Structures, Computer Networks, Computer Organization, Compiler Design, Block Chain Technology, IoT (Internet of Things), Operating Systems, Soft Computing, Distributed and Parallel Computing, High Performance Computing, Theory of Computation, Object Oriented Analysis and Design,
-          - Software Management Courses: Software Engineering and Project Management, Software Design Patterns
-          - Other Courses: Personality Development, Communication Skills, Economics, Human Resource Management, Financial Management and Accounting, Operation and Supply Chain Management
           
-          
+          - Computer Science Courses: Cloud Computing, Cryptography and Network Security, Data Structures, Computer Networks, Computer Organization, Compiler Design, Operating Systems, Theory of Computation, Object Oriented Analysis and Design.
+          - Data Courses: Database Management Systems, Artificial Intelligence, Data Warehousing and Data Mining, Big Data Analytics.
 
           Extracurricular Activities
-            - Won 2nd place All India in Smart India Hackathon 2020 for developing a Smart Yoga Instructor with feedback using Deep Learning
-            - Was the Elected Cultural Club Secretary from 2019-2021
-            - Won several Photography competitions during all 4 years.
+            - Won and participated in multiple Data Structure and SQL events in technical conferences
+            - Conducted technical competetion Code Relay in SSNCE Technial Conference Invente 2018
+            - Participated in Smart India Hackathon 2018
 
   #featuredLink:
   #enable: true
@@ -327,14 +343,14 @@ params:
   contact:
     enable: true
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: priya.theagarajan@gmail.com
+    email: priya.theagarajan12@gmail.com
     btnName: Mail me
 
   footer:
     recentPosts: false
     socialNetworks:
-      github: https://github.com/Keerthi-Sreenivas
-      linkedin: https://www.linkedin.com/in/keerthi-sreenivas-90b78a185/
+      github: https://github.com/lakshiya
+      linkedin: https://www.linkedin.com/in/priya-lakshmi-theagarajan/
     # twitter: https://twitter.com
-      instagram: https://www.instagram.com/keerthi__sreenivas/
+      instagram: https://www.instagram.com/riya_laksh/
     # facebook: https://facebook.com
