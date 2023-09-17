@@ -49,16 +49,16 @@ params:
 
     textColor: "#5453A6"
     secondaryTextColor: "#5453A6"
-    backgroundColor: "#F5F5F5"
+    backgroundColor: "#F5F5FF"
     primaryColor: "#5453A6"
-    secondaryColor: "#30475E"
+    secondaryColor: "#E9EBFE"
 
     darkmode:
-      textColor: "#2C3333"
+      textColor: "#F5F5FF"
       secondaryTextColor: "#F5F5F5"
-      backgroundColor: "#54BAB9"
-      primaryColor: "#F0F0F0"
-      secondaryColor: "#78C2C3"
+      backgroundColor: "#484d7e"
+      primaryColor: "#F5F5F5"
+      secondaryColor: "#565c97"
 
     # textColor: "#F5F5F5"
     # secondaryTextColor: "#F5F5F5"
@@ -119,7 +119,7 @@ params:
       background - color: 
       enable: true
       name: "Resume"
-      url: "https://docs.google.com/document/d/1vUD64RGPchMDKgRPX353InBAEOTC_TTVSYW-88v7e9s/edit?usp=sharing"
+      url: "https://github.com/lakshiya/RESUME/blob/main/PRIYA%20LAKSHMI%20THEAGARAJAN_RESUME.pdf"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -135,37 +135,40 @@ params:
   # About
   about:
     enable: true
-    title: "I'm Open to work from December 2022"
+    title: "I'm Open to work from May 2024"
     image: "/images/Priya_Sec.png"
     content: |-
-     Currently working as Data Science Intern at Allogene Therapeutics https://allogene.com
-     A Masters in Data Science student with 4+ years of academic experience in Python, R, Machine Learning and Big Data. 
+     Currently working as Software Engineer Intern at <a href="https://www.intuitive.com/en-us"> <b> Intuitive Surgical Inc</b>. </a>
+     With over 4 years of professional experience working in backend application devleopment, Cloud Infrastructure, data engineering, business analytics and machine learning projects.  
      I have a strong interest in the the intersection of Technology and Business.
      
     skills:
       enable: true
       title: "Skills:"
       items:
-        - "Python, R, SQL, Spark in Databricks, Sci-Kit Learn, MLops, AWS"
+        - "Backend development : Node.js, SQL, MongoDB, Oracle DB, MySQL, Django, Flask REST API,"
+        - "AWS / Cloud Infrastucture : AWS ECS, IAM, EC2, Lambda, VPN, S3, Cloudformation, SNS, SQS, Serice Catalog, Lakeformation"
+        - "Data Engineering / Business Analytics : Python, Spark, Ab Initio, Pandas, Amazon Redshift, AWS Glue, Data Lake, Athena"
+        - "DevOps : Linux, Chef, Jenkins, Docker, Terraform"
+        - "Machine Learning : Nltk, Pandas, Numpy, Jupyter "
         - "Mentorship, Multi-Cultural Fluency, Team Player"
        
-
   # Experience
   experience:
     enable: true
     items:      
-      - job: "Data Science Intern"
-        company: "Allogene - Cancer Research"
-        companyUrl: "https://example.com"
-        date: "May 2022 - Aug 2022"
+      - job: "Software Engineer Intern"
+        company: "Intuitive Surgical Inc"
+        companyUrl: "https://www.intuitive.com/en-us"
+        date: "Aug 2023 - Present"
         info:
           enable: true
-          content: "Location: San Francisco, CA "
+          content: "Location: Sunnyvale, CA "
         featuredLink:
           enable: false
-          url: "https://example.com"
+          url: "https://www.intuitive.com/en-us"
         content: |
-          San Francisco, California
+          Sunnyvale, California
           - Developed a Data Issue tracker dashboard application in R to reduce time in communication issues in data by 70% which replaced existing licensed software thereby saving $80,000 annually for the company
           - Performed stakeholder analysis and translated functional requirements to build the roadmap for iterative development.
           - Synthesized User-friendly front-end layouts and designed actionable metrics in the dashboard for the Analytics Team
@@ -173,57 +176,40 @@ params:
           - Built a practice to write efficient and reusable code with configuration files with minimal technical debt
 
       
-      - job: "Teaching Assitant - Big Data"
-        company: "Simon Business School"
-        companyUrl: "http://simon.rochester.edu"
-        date: "Oct 2020 - May 2021"
+      - job: "Software Engineer"
+        company: "University of Florida - College of Medicine"
+        companyUrl: "https://med.ufl.edu"
+        date: "Feb 2023 - Aug 2023"
         info:
           enable: true
-          content: "Location: Rochester, NY"
+          content: "Location: Gainesville, FL"
         featuredLink:
           enable: false
-          url: "http://simon.rochester.edu"
+          url: "https://med.ufl.edu"
         info:
           content:
         content: |-
-          Rochester, NY
+          Gainesville, Florida
           - Conducted weekly doubt-solving sessions & taught 200+ students on Big data tools like: Hadoop, Hive, PySpark, Databricks
           - Assisted students in connecting and file sharing in Hadoop clusters hosted on AWS S3 and other ad-hoc data democratization tasks.
 
-      - job: "Technical Instructor Intern"
-        company: "KITOLIT"
-        companyUrl: "https://www.kitolit.com"
-        date: "Jul 2020 - Nov 2020"
+      - job: "Senior Analyst - Technology"
+        company: "Barclays"
+        companyUrl: "https://cards.barclaycardus.com"
+        date: "Jul 2029 - Aug 2023"
         info:
           enable: true
-          content: "Location: Hyderabad, India"
+          content: "Location: Chennai, India"
         featuredLink:
           enable: false
-          url: "https://www.kitolit.com"
+          url: "https://cards.barclaycardus.com"
         info:
           content: Generated a revenue of $6,400 for the startup by offering one-on-one sessions during late/early hours from India for students in the USA, designing course structure and content.
         content: |-
-          Hyderabad, India
+          Chennai, India
           - Designed the curriculum and produced Content for an experiential learning course “Javascript  for Middle School Kids” by creating fun and interactive lessons  increasing enrollment by 45% Qtr over Qtr
           - Offered one-on-one Mentoring  sessions from India for students in the USA henceforth generating revenue of $6,400   
           
-      - job: "IoT Intern"
-        company: " BITS Pilani Indibots "
-        companyUrl: "https://www.f6s.com/indibots"
-        date: "June 2018 - July 2018"
-        info:
-          enable: true
-          content: "Location: Hyderabad, India "
-        featuredLink:
-          enable: false
-          url: "https://www.kitolit.com"
-        content: |-
-          Hyderabad, India
-          - Worked on Developing a Smart Medicine reminder kit and Collaborated with other interns to define the features of the Device.
-          - Designed the Circuit Diagram.
-          - Presented Demo's to several Professors.
-
-
   # Education
   education:
     enable: true
