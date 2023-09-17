@@ -138,7 +138,7 @@ params:
   about:
     enable: true
     title: "I'm Open to work from April 2024"
-    image: "/images/PriyaDP3.png"
+    image: "/images/PriyaID.png"
     content: |-
       A passionate graduate student at the University of Florida, majoring in Computer Science. 
       I live in Mountain View, CA. I love interacting and learning about technologies, I believe that every problem is an opportunity in disguise, and I specialize in crafting software solutions to tackle them.
@@ -294,12 +294,12 @@ params:
   projects:
     enable: true
     items:
-      - title: Colorizer - Deep Learning
-        content: A Deep learning based application that converts a Black and White (Grayscale) Image/Video into a Colour video without human guidance.
-        image: /images/projects/Colorization3.png
+      - title: Social Media web application using MERN Stack
+        content: Socio is a simple social media app that allows users to post interesting events that happened in their lives, It is a Full stack application using React, Node.js, Express & MongoDB.
+        image: /images/projects/Socio-Full-new.png
         featured:
           name: Click here to know more!
-          link: https://docs.google.com/presentation/d/193X-n0sXoFbMR9dD7rxJxwM8n_GpOwNQ/edit?usp=sharing&ouid=116008293600462184270&rtpof=true&sd=true
+          link: https://github.com/lakshiya/social-media-webapp
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"
@@ -308,7 +308,7 @@ params:
           #- icon: fa fa-envelope
           #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/Keerthi-Sreenivas/Deep-Learning/blob/main/Gray%20Scale%20Image%20Colorization%20using%20Auto%20Encoders%20(Fruits%20Data%20Set).ipynb
+            url: https://github.com/lakshiya/social-media-webapp
           # - icon: fab fa-twitter
           #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
