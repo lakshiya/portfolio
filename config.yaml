@@ -41,7 +41,7 @@ markup:
 
 params:
   title: " Portfolio "
-  description: Text about my cool site
+  description: Portfolio of Priya Lakshmi Theagarajan
   staticPath: ""  # The path to serve the static files from
   favicon: "Priya_icon.jpg"
 
