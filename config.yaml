@@ -113,8 +113,8 @@ params:
     title: "Priya Theagarajan"
     subtitle: "Software Engineer"
     content: "Currently Interning at <a href=https://www.intuitive.com/en-us> <b> Intuitive Surgical Inc</b>. </a>
-     With over 4 years of professional experience working in backend application devleopment, Cloud Infrastructure, Data engineering, Business analytics and Machine learning projects.  
-     I am actively looking for full-time opportunites starting April 2023."
+     With over 4 years of professional experience working in Backend Application development, Cloud Infrastructure, Data engineering, Business analytics and Machine learning projects.  
+     I am actively looking for full-time opportunites starting April 2024."
     
     image: "images/Priya_Sec.png"
     button:
@@ -146,7 +146,7 @@ params:
      
     skills:
       enable: true
-      title: "Skills:"
+      title: ""
       items:
         - "Backend development : Node.js, SQL, MongoDB, Oracle DB, MySQL, Django, Flask REST API,"
         - "AWS / Cloud Infrastucture : AWS ECS, IAM, EC2, Lambda, VPN, S3, Cloudformation, SNS, SQS, Serice Catalog, Lakeformation"
@@ -244,9 +244,9 @@ params:
         date: "Aug 2022 - April 2024"
         GPA: "3.72 out of 4.0"
         content: |-
-            - Worked as a Software Engineer for College of Medicine to develop a medical resource inventory system.
-            - Was part of the Virtual Experience RG lab to perform user research project on HPV vaccination using virtual humans with Figma.
-            - Attending Grace Hopper 2023 Conference with University Scholarship.
+            - Worked as a Software Engineer at UF College of Medicine to develop a medical resource inventory system.
+            - Was part of the Virtual Experience Research lab to perform user research project on HPV vaccination using virtual humans with Figma.
+            - Attending Grace Hopper 2023 Conference.
             - Course Work: Natural Language Processing, Analysis of Algorithms, Computer Architecture, Human Computer Interaction, Advanced Data Structure, Distributed Operating System, Internet Data Streaming.
 
             Extracurricular Activities
@@ -280,15 +280,22 @@ params:
       #- title: Smart India Hackathon 2020
        # content: Won 2nd place in Smart India Hackathon 2020 for developing a Smart Yoga Instructor with feedback using Deep Learning
         #url: "https://www.sih.gov.in"
-      - title: Creative Collision Challenge 2022
-        content: Won 1st Place at the University of Rochester AIN Entrepreneurship cell's yearly pitching competition.
-      - title: Women Entrepreneurship Week Candidate 2020
-        content: Was selected to meet a Senior Director from Jio Industries for a discussion about the Smart Yoga Instructor application AIC Incubation Center at IIIT Kottayam.
-      - title: Elected Cultural Secretary 2019 - 2021
-        content: Conducted 15+ events with a footprint of more than 300+ students and Managed a team of 25 students for fundraising and event organization # Conducted events virtually during COVID for effective engagement among new students.
-        url: "https://www.iiitkottayam.ac.in/#!/culturalClub"
-      - title: Presented my paper at ACM/CSI/IEEE-CS Conference. 
-        content: Author of “IoT based Smart Medicine Reminder Kit” at ACM/CSI/IEEE-CS Research and Industry Symposium at IIIT Kottayam (My Bachelor's Honors Project)
+      
+      - title: Barclays Global Recognition Award of Excellence (2020) 
+        content: Awarded for delivering one of the most complex customer journey KPI dashboard for Fraud Case Management system.
+      - title: Barclays Value Award for Excellence (2021) 
+        content: Awarded for leading the AWS Cloud Infrastructure development for the Enterprise Platform team.
+
+      - title: AWS Associate Developer
+        content: Certified AWS Developer with hand-on experience in implementing CI/CD pipeline and AWS services such as ElasticBeanstalk, ECS, ECR, CloudFormation, Glue & Step Function etc.
+        image: /images/projects/AWSDev.png
+        url: https://www.credly.com/badges/8552240b-8991-4658-a69d-1d6d2f28dd8f?source=linked_in_profile
+        
+      - title: Certified Linux and RHEL Developer
+        content: Completed courses - Fundamentals of Red Hat Enterprise Linux, Hands-on Introduction to Linux Commands and Shell and Learning Linux for LFCA Certification
+        image: /images/projects/AWSDev.png
+        url: https://www.coursera.org/account/accomplishments/verify/FNL2B8Y4FHDQ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course
+
 
   # projects
   projects:
@@ -312,39 +319,41 @@ params:
           # - icon: fab fa-twitter
           #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Elon Musk Dogecoin Tweet Analysis - NLP
-        content: Analyzed the sentiments around Elon's tweets about Dogecoin and impact of his tweets on the price of Doge coin.
-        image: /images/projects/doge4.jpeg
+      - title: Mental Health analytics on Reddit Posts using NLP Topic Modelling
+        content: Using NLP-based Topic Modeling techniques to discover correlations between Lifestyle Habits and Mental Health Concerns using data from subreddits like /depression, /parenting, /anxiety, /fitness etc.
+        image: /images/projects/NLP-Project.png
         featured:
           name: Click here to know more!
-          link: https://github.com/Keerthi-Sreenivas/Elon_Musk-Doge-Tweet_Analysis/blob/main/Facts_derived_from_the_study.pdf
-        # badges:
-        #   - "Django"
-        #   - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/Keerthi-Sreenivas/Elon_Musk-Doge-Tweet_Analysis
-
-      - title: Marketing Insights - Statistics
-        content: Digging through data and finding significant insights to advertise better products to customers of different backgrounds.
-        image: /images/projects/advert1.jpeg
-        featured:
-          name: Click here to know more!
-          link: https://github.com/Keerthi-Sreenivas/statistics/blob/main/Project.pdf
+          link: https://docs.google.com/presentation/d/1ShW_uTYcuRiGpgzbf9K9FK6delz2iSgHsXO_K6Dfwbk/edit?usp=sharing
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"
         #   - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/Keerthi-Sreenivas/statistics/blob/main/Project.pdf
+            url: https://github.com/aishwaryasharmaccoew/CIS6930-NLP
+
+      - title: Event Management system - BookMyEvents
+        content: Book My Events is a simple events management application built using Django for creating, booking and managing student organization events. 
+        image: /images/projects/HCI-Events.png
+        featured:
+          name: Click here to know more!
+          link: https://docs.google.com/presentation/d/1K7CvGTUQsXhiPyEIHKpCQteA6glh0e3PDMkkyQjoRE8/edit?usp=sharing
+        # badges:
+        #   - "Django"
+        #   - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/lakshiya/HCI_Django/tree/main
+
+
 
   #Contact
   contact:
     enable: true
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: My inbox is always open. Whether you have a question or just want to say hi, Drop me a message !
     email: priya.theagarajan12@gmail.com
-    btnName: Mail me
+    btnName: Get in Touch
 
   footer:
     recentPosts: false
