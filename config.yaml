@@ -121,15 +121,14 @@ params:
       background - color: 
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1YpbL6iTom5_0N0Yr2NPrnLQOH_-o8I4J/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1yFjZ9Go-HTS0PMM1Z_5hNkZT2cX2fbA3/view?usp=sharing"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/lakshiya
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/priya-lakshmi-theagarajan/
-        - icon: fab fa-instagram
-          url: https://www.instagram.com/riya_laksh/
+
       #customIcons:
         #- icon: /fav.png
         #  url: "https://example.com"
@@ -361,5 +360,5 @@ params:
       github: https://github.com/lakshiya
       linkedin: https://www.linkedin.com/in/priya-lakshmi-theagarajan/
     # twitter: https://twitter.com
-      instagram: https://www.instagram.com/riya_laksh/
+      # instagram: https://www.instagram.com/riya_laksh/
     # facebook: https://facebook.com
