@@ -172,7 +172,6 @@ params:
           Sunnyvale, California
 
           - Engineering Applications | <i><b> Tableau, Pandas, Python, REST API, SQL, Windchill, RHEL </b></i>
-            # - Developed Tableau dashboards using data from REST API to manage IT application licenses, resulting in cost reduction of over 20% due to removal of unused licenses
             - Developed a real-time Enterprise Application license monitoring system by creating an ETL pipeline with Python,
 Tableau and Hyper table, resulting in cost reduction of over 250K due to removal of unused licenses.
             - Building troubleshooting and monitoring utility using logs from CAD workers with Elasticsearch, Kibana, and Machine learning techniques
