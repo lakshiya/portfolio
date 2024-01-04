@@ -113,8 +113,7 @@ params:
     title: "Priya Theagarajan"
     subtitle: "Software Engineer"
     content: "Currently Interning at <a href=https://www.intuitive.com/en-us> <b> Intuitive Surgical Inc</b>. </a>
-     With over 4 years of professional experience working in Backend Application development, Cloud Infrastructure, Data engineering, Business analytics and Machine learning projects.  
-     I am actively looking for full-time opportunites starting April 2024."
+     With over 4 years of professional experience, I have seamlessly navigated diverse domains, including full-stack development, cloud infrastructure, data pipelines, and analytics. With a dynamic skill set that spans the entire technology spectrum, I bring a holistic perspective to software solutions."
     
     image: "images/Priya_Sec.png"
     button:
@@ -136,11 +135,12 @@ params:
   # About
   about:
     enable: true
-    title: "I'm Open to work from April 2024"
+    title: "I'm looking for new employment opportunities."
     image: "/images/PriyaID.png"
     content: |-
       A passionate graduate student at the University of Florida, majoring in Computer Science. 
       I live in Mountain View, CA. I love interacting and learning about technologies, I believe that every problem is an opportunity in disguise, and I specialize in crafting software solutions to tackle them.
+      In my free time I love listening to podcasts on tech, finance and history while crocheting. My favorites include <a href='https://open.spotify.com/show/0A6kWKFEOFtp8fkrpnAJQB'> "The Stories of Mahabharata," </a> <a href='https://open.spotify.com/show/0KxdEdeY2Wb3zr28dMlQva'> "The Journal." </a> and <a href='https://open.spotify.com/show/6ll0MwobDt1JW9gYaOONEo'> "Think Fast, Talk Smart"</a>
      
      
     skills:

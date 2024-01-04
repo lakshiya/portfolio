@@ -206,7 +206,7 @@ header .navbar {
 }
 
 #about ul {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(2, minmax(140px, 200px));
     gap: 0px 10px;
     padding: 0px;
